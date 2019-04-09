@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-background-color: aqua;
+background-color: black;
 height: 40px;
 display: flex;
 align-items: center;
@@ -15,12 +15,23 @@ nav a{
     color: saddlebrown rgd (246, 142, 44);
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
 }
 
 nav a:nth-child(){
     font-size: 20pt;
     font-weight: 700;
 }
+
+header{
+    height: 200px;
+    background-color: blue;
+    background-image:  url(82f6d4dcd8683644a5613554fb8bdff3.jpg);
+    
+
+}
+    
+
 
 section{
     height: 300pt;
@@ -64,14 +75,28 @@ div input{
 }
 
 footer{
-width: 100pt;
+width: 100vw;
 height: 100pt;
 background-color: black; 
-}  
+display: flex;
+justify-content: center;
+align-items: center;
 
-footer  button{
-    color: white;
 }
+footer div{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div img{
+width: 50px;
+height: 50px;
+}
+
+
+
+
 
 
 
